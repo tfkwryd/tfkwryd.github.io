@@ -121,7 +121,10 @@
   <script src="assets/js/script.js"></script>
   <script>
     const params = new URLSearchParams(document.location.search);
-    const to = params.get("to");
+    var to = params.get("to");
+    if(to==null){
+      to = '-';
+    }
     var labelName = document.getElementById('label-name');
     labelName.insertAdjacentHTML('beforeend', to);
   </script>
