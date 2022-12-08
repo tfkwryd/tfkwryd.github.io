@@ -1,8 +1,5 @@
 :root{
-  /* #454E49 || 69, 78, 73  */
-  --color-primary: rgba(69, 78, 73, 1);
-  --color-primary-50: rgba(69, 78, 73, 0.5);
-  --color-primary-75: rgba(69, 78, 73, 0.75);
+  --color-primary: #594545;
   --color-white: #ffffff;
   --color-black: #333333;
   --color-gray: #eeeeee;
@@ -10,13 +7,15 @@
 }
 
 body {
-  background-color: var(--color-gray) !important;
-  font-family: 'Montserrat', sans-serif;
+  background-color:#FFF8EA !important;
+  font-family: 'Abhaya Libre';
+  color: var(--color-primary);
 }
 
 .font-great-vibes {
   font-family: 'Great Vibes' !important;
 }
+
 .font-pt-sans {
   font-family: 'PT Sans', sans-serif !important;
 }
@@ -27,7 +26,6 @@ h3 {
   font-size: 35px;
   line-height: 120%;
   text-align: center;
-  color: var(--color-primary);
   margin-bottom: 0;
 }
 p {
@@ -35,7 +33,6 @@ p {
   font-weight: normal;
   font-size: 14px;
   line-height: 130%;
-  color: var(--color-black);
   margin-bottom: 0;
 }
 p.small {
@@ -67,9 +64,10 @@ p.small {
   align-items: center;
   justify-content: center;
   color: var(--color-white);
-  background-color: var(--color-primary-50);
+  background-color: var(--color-primary);
   box-shadow: 12px 18px 44px rgba(69, 78, 73, 0.1);
   transition: .5s;
+  opacity: 0.5;
 }
 .btn-music:hover {
   background-color: rgba(69, 78, 73, 1);
@@ -89,7 +87,7 @@ p.small {
 .section-mobile .container {
   width: 100%;
   min-height: calc(100vh);
-  background: rgba(255, 255, 255, 0.25);
+  background: rgb(255, 255, 255, 0.25);
   backdrop-filter: blur(2px);
   display: flex;
   align-items: center;
@@ -130,10 +128,11 @@ p.small {
 .bg-texture {
   width: 100%;
   height: 100%;
-  background-size: 327px 343px;
-  background-image: url('../img/texture.png');
+  /* background-size: 327px 343px; */
+  background-size: cover;
+  background-image: url('../img/bg-pattern.svg');
   margin: auto;
-  opacity: .7;
+  opacity: .75;
 }
 .bg-01 {
   width: 216px;
@@ -284,13 +283,13 @@ p.small {
   height: 100px;
   margin: auto;
   background: rgba(255, 255, 255, 0.75);
-  /* box-shadow: 12px 18px 44px rgba(69, 78, 73, 0.1); */
-  border: 1px solid var(--color-primary-75);
+  border: 1px solid var(--color-primary);
   box-sizing: border-box;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0.75;
 }
 
 .banner img {
