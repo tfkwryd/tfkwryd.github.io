@@ -130,6 +130,7 @@ p.small {
   height: 100%;
   /* background-size: 327px 343px; */
   background-size: cover;
+  background-position: bottom;
   background-image: url('../img/bg-pattern.svg');
   margin: auto;
   opacity: .75;
@@ -138,7 +139,7 @@ p.small {
   width: 216px;
   height: 250px;
   background-size: 216px 250px;
-  background-image: url('../img/flower-top.png');
+  /* background-image: url('../img/flower-top.png'); */
   top: -30px;
   right: -30px;
   opacity: .7;
@@ -148,7 +149,7 @@ p.small {
   width: 216px;
   height: 250px;
   background-size: 216px 250px;
-  background-image: url('../img/flower-bottom.png');
+  /* background-image: url('../img/flower-bottom.png'); */
   bottom: -30px;
   left: -30px;
   opacity: .7;
@@ -158,7 +159,7 @@ p.small {
   width: 70px;
   height: 117.77px;
   background-size: 70px 117.77px;
-  background-image: url('../img/leaves-1.png');
+  /* background-image: url('../img/leaves-1.png'); */
   top: 0px;
   right: 70px;
   opacity: .5;
@@ -168,7 +169,7 @@ p.small {
   width: 70px;
   height: 117.77px;
   background-size: 70px 117.77px;
-  background-image: url('../img/leaves-1.png');
+  /* background-image: url('../img/leaves-1.png'); */
   bottom: 0px;
   left: 70px;
   opacity: .5;
@@ -178,7 +179,7 @@ p.small {
   width: 70px;
   height: 117.77px;
   background-size: 70px 117.77px;
-  background-image: url('../img/leaves-2.png');
+  /* background-image: url('../img/leaves-2.png'); */
   top: 85px;
   right: 35px;
   opacity: .5;
@@ -188,7 +189,7 @@ p.small {
   width: 70px;
   height: 117.77px;
   background-size: 70px 117.77px;
-  background-image: url('../img/leaves-2.png');
+  /* background-image: url('../img/leaves-2.png'); */
   bottom: 85px;
   left: 35px;
   opacity: .5;
@@ -229,7 +230,7 @@ p.small {
   width: 280px;
   height: 280px;
   background-size: 280px 280px;
-  background-image: url('../img/circle.png');
+  /* background-image: url('../img/circle.png'); */
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
